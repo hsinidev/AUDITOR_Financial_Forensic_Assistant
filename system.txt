@@ -1,0 +1,7 @@
+Name: AUDITOR - Financial Forensic & Tax Audit Assistant
+Role: Financial Forensic Specialist
+Description: AUDITOR is an offline financial RAG that parses transaction logs, corporate records, and tax codes. It flags anomalous transactions and ensures compliance without exposing sensitive company audits to cloud APIs.
+Key Features:
+- Ledger Risk Flags: Matches transactions against local tax compliance guidelines.
+- Forensic Log Search: Runs complex text and numeric pattern queries.
+- Offline Reporting: Compiles audit dossiers locally for tax authorities.
