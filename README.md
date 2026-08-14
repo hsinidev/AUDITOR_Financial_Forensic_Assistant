@@ -1,17 +1,21 @@
 <div align="center">
-# 🚀 Auditor Financial Forensic Assistant
-### *Modern, High-Performance Python Solution & Developer Suite*
 
-<p align="center">
-  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
-  [![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge)](https://github.com/hsinidev)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Auditor%20Financial%20Forens&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%" style="max-width: 100%; border-radius: 12px; margin-bottom: 20px;" alt="Auditor Financial Forensic Assistant Header Banner" />
+
+  <h1>🚀 Auditor Financial Forensic Assistant</h1>
+  <p><em>Modern, High-Performance Python Solution & Developer Suite</em></p>
+
+  <p align="center">
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white" alt="Architect: Hsini Mohamed" /></a>
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio: hsini.dev" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge" alt="Language: Python" /></a>
+    <a href="https://github.com/hsinidev/AUDITOR_Financial_Forensic_Assistant"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+  </p>
 
 </div>
 
 ---
+
 ## 🌟 Executive Overview
 
 **Auditor Financial Forensic Assistant** is a production-grade **Python** platform engineered for high reliability, clean architectural separation, and frictionless developer workflow.
@@ -24,103 +28,13 @@
 - **Production Ready**: Built-in error resilience, validation, and structured logging.
 
 ---
+
 ## 🏗️ Architecture & Technology Stack
 
 - **Primary Language**: `Python`
 - **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
 - **License**: MIT Open Source Attribution
 
-## 📖 Deep-Dive Technical Documentation
-
-# AUDITOR - Financial Forensic & Tax Audit Assistant
-
-
-## 🎯 Project Overview
-**AUDITOR** is an air-gapped, privacy-focused Retrieval-Augmented Generation (RAG) system created for forensic accountants, tax auditors, and corporate financial controllers. It processes general ledgers, transaction logs, corporate invoices, and tax regulatory codes locally—flagging accounting anomalies and compliance risks while keeping private financial records 100% offline.
-
----
-
-## ✨ Key Features
-- 🚩 **Ledger Risk Flagging**: Cross-references transaction ledgers against local tax laws, GAAP/IFRS standards, and compliance rules.
-- 🔎 **Forensic Pattern Search**: Performs hybrid semantic and numeric text queries across thousands of financial statements and audit trails.
-- 📋 **Automated Audit Dossiers**: Generates comprehensive local audit summary reports ready for board reviews or regulatory compliance audits.
-- 🔒 **Zero Data Leakage**: Protects sensitive financial disclosures, payroll records, and proprietary ledger logs from cloud leaks.
-- 📊 **Invoice & Receipt Parsing**: Extracts tabular numerical data from PDF invoices and bank statements seamlessly.
-
----
-
-## 🛠 System Architecture & Stack
-- **Interface**: Custom Streamlit Financial Dashboard (`app.py`)
-- **RAG Engine**: Forensic query retrieval system (`rag_engine.py`) using ChromaDB vector storage
-- **Data Ingestion**: Multi-format financial document loader for CSV, Excel, PDF ledgers (`ingest.py`)
-- **LLM Engine**: Local Ollama execution (Llama 3 / Qwen 2.5 / Gemma 2)
-
----
-
-## 🚀 Quick Start Guide
-
-### Prerequisites
-- Python 3.10+
-- [Ollama](https://ollama.ai/) installed locally
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/hsinidev/AUDITOR_Financial_Forensic_Assistant.git
-   cd AUDITOR_Financial_Forensic_Assistant
-   ```
-2. Activate a Python virtual environment:
-   ```bash
-   python -m venv venv
-   # Windows:
-   venv\Scripts\activate
-   # Linux/macOS:
-   source venv/bin/activate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install streamlit chromadb langchain ollama pandas pypdf openpyxl
-   ```
-
-### Usage
-1. Place financial ledgers, tax codes, and audit records into the local data directory.
-2. Ingest ledger data into the vector database:
-   ```bash
-   python ingest.py
-   ```
-3. Launch the financial audit interface:
-   ```bash
-   streamlit run app.py
-   ```
-
----
-
-## 📂 Project Structure
-```
-AUDITOR_Financial_Forensic_Assistant/
-├── app.py           # Financial audit interface & query dashboard
-├── ingest.py        # Financial ledger & tax document processing script
-├── rag_engine.py    # Forensic retrieval engine & anomaly detection pipeline
-├── prompt.json      # Forensic accounting prompts & audit scoring rules
-├── system.txt       # System role definition & security compliance spec
-├── skills.md        # Specialized forensic accounting tool definitions
-└── README.md        # Project documentation
-```
-
----
-
-**HSINI MOHAMED**  
-*Enterprise Systems Architect & Financial AI Specialist*  
-
-- **GitHub**: [@hsinidev](https://github.com/hsinidev)
-- **LinkedIn**: [Moahmed Hsini](https://www.linkedin.com/in/moahmed-hsini-6059281a1/)
-- **Email**: [hsini.moahmed@gmail.com](mailto:hsini.moahmed@gmail.com)
-- **Website**: [hsini.dev](https://hsini.dev)
-
----
-*Precision forensic financial analysis with offline data security.*
-
----
 ## 🚀 Quick Start & Installation
 
 ### 1. Clone the Repository
